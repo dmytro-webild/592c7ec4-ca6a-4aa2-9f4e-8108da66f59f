@@ -46,9 +46,9 @@ export default function LandingPage() {
       title="Timeless Elegance, Redefined."
       description="Crafting the foundation of a modern wardrobe with sustainable luxury and precision tailoring."
       mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/fashion-portrait-young-elegant-woman_1328-2627.jpg" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/young-man-shopping-menswear-shop_1303-19869.jpg" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/close-up-detail-cozy-clothing-texture_23-2149409163.jpg" }
+        { imageSrc: "http://img.b2bpic.net/free-photo/fashion-portrait-young-elegant-woman_1328-2627.jpg?_wi=1" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/young-man-shopping-menswear-shop_1303-19869.jpg?_wi=1" },
+        { imageSrc: "http://img.b2bpic.net/free-photo/close-up-detail-cozy-clothing-texture_23-2149409163.jpg?_wi=1" }
       ]}
       background={{ variant: "plain" }}
     />
@@ -68,9 +68,9 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
-        { id: "1", name: "Silk Essential Shirt", price: "$180", variant: "Silk", imageSrc: "http://img.b2bpic.net/free-photo/fashion-portrait-young-elegant-woman_1328-2627.jpg" },
-        { id: "2", name: "Tailored Wool Trouser", price: "$240", variant: "Wool", imageSrc: "http://img.b2bpic.net/free-photo/young-man-shopping-menswear-shop_1303-19869.jpg" },
-        { id: "3", name: "Cashmere Knit", price: "$320", variant: "Cashmere", imageSrc: "http://img.b2bpic.net/free-photo/close-up-detail-cozy-clothing-texture_23-2149409163.jpg" }
+        { id: "1", name: "Silk Essential Shirt", price: "$180", variant: "Silk", imageSrc: "http://img.b2bpic.net/free-photo/fashion-portrait-young-elegant-woman_1328-2627.jpg?_wi=2" },
+        { id: "2", name: "Tailored Wool Trouser", price: "$240", variant: "Wool", imageSrc: "http://img.b2bpic.net/free-photo/young-man-shopping-menswear-shop_1303-19869.jpg?_wi=2" },
+        { id: "3", name: "Cashmere Knit", price: "$320", variant: "Cashmere", imageSrc: "http://img.b2bpic.net/free-photo/close-up-detail-cozy-clothing-texture_23-2149409163.jpg?_wi=2" }
       ]}
       title="The Permanent Collection"
       description="Essential garments designed for longevity and comfort."
