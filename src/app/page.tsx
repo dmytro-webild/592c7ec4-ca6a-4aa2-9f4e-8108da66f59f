@@ -81,13 +81,14 @@ export default function LandingPage() {
       <MetricCardOne
       useInvertedBackground={false}
       title="Quality by Design"
+      description="Our commitment to excellence defined by core metrics."
       gridVariant="uniform-all-items-equal"
       animationType="slide-up"
       textboxLayout="default"
       metrics={[
-        { id: "m1", value: "100%", title: "Sustainable", description: "Materials", icon: Zap },
-        { id: "m2", value: "12", title: "Global", description: "Partners", icon: Target },
-        { id: "m3", value: "5k+", title: "Curators", description: "Satisfied", icon: TrendingUp },
+        { id: "m1", value: "100%", title: "Sustainable", description: "Materials used in all garments.", icon: Zap },
+        { id: "m2", value: "12", title: "Global", description: "Partners in fair trade practices.", icon: Target },
+        { id: "m3", value: "5k+", title: "Curators", description: "Satisfied luxury customers worldwide.", icon: TrendingUp },
       ]}
     />
   </div>
@@ -128,6 +129,7 @@ export default function LandingPage() {
       <FaqSplitMedia
       useInvertedBackground={false}
       title="Your Questions"
+      description="Find answers to our most common inquiries."
       faqsAnimation="blur-reveal"
       textboxLayout="default"
       faqs={[
@@ -141,6 +143,7 @@ export default function LandingPage() {
       <ContactSplitForm
       title="Join the Inner Circle"
       description="Get early access to our seasonal drops."
+      useInvertedBackground={false}
       inputs={[
         { name: "email", type: "email", placeholder: "Email Address" },
         { name: "name", type: "text", placeholder: "Name" }
